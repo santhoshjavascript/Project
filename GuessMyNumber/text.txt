@@ -1,0 +1,7 @@
+ if == true and else == false apdi code write pannama 
+if == true and fale check panna else if podalam nu
+function == ulla direct aha ternary condition podalanu
+
+//namma thing pannura mari code write pannala if(ulla innoru if()); like this
+// password
+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
