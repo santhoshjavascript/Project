@@ -7,6 +7,7 @@ const diseBtn = document.querySelector('.btn--roll');
 const changeCol0 = document.querySelector('.player--0 ');
 const changeCol1 = document.querySelector('.player--1 ');
 const holdButton = document.querySelector('.btn--hold');
+const newGame = document.querySelector('.btn--new');
 
 let score = [0, 0];
 player1Score.textContent = 0;
@@ -67,4 +68,11 @@ holdButton.addEventListener('click', function () {
       switchPlayer();
     }
   }
+});
+
+newGame.addEventListener('click', function () {
+  player1Score.textContent = 0;
+  player2Score.textContent = 0;
+  currentScore1.textContent = 0;
+  currentScore2.textContent = 0;
 });
